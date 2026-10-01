@@ -29,6 +29,9 @@
   "bundle": {
     "active": true,
     "targets": ["nsis", "msi"],
+    "icon": [
+  "icons/icon.ico"
+    ],
     "windows": { "webviewInstallMode": { "type": "embedBootstrapper" } },
     "shortDescription": "Lightweight Windows gaming performance monitor",
     "longDescription": "Brail Performance Monitor provides local CPU, memory, storage, network, battery and extensible GPU telemetry without cloud services."
